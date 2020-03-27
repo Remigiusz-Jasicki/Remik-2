@@ -1,0 +1,84 @@
+#include <string.h>
+#include <iostream>
+using namespace std;
+
+struct film {
+  string tytul;
+  string rezyser;
+  int rok;
+  string gatunek;
+  int czasTrwaniaMinut;
+};
+
+int main()
+{	
+    film Aquaman;
+    film JakzostalmgangsteremHistoriaprawdziwa;
+    film Thor;
+    film Venom;
+    film IronMan;
+    
+    
+	Aquaman.tytul="Aquaman";
+	Aquaman.rezyser="James Wan";
+	Aquaman.rok=2018;
+	Aquaman.gatunek="Film akcji/Film przygodowy";
+	  
+	JakzostalmgangsteremHistoriaprawdziwa.tytul="Jak zostlem gangsterem. Historia prawdziwa";
+	JakzostalmgangsteremHistoriaprawdziwa.rezyser=" Maciej Kawulski";
+	JakzostalmgangsteremHistoriaprawdziwa.rok=2020;
+	JakzostalmgangsteremHistoriaprawdziwa.gatunek="Dramat/Film sensacyjny";
+	
+	Thor.tytul="Thor";
+	Thor.rezyser="Kenneth Branagh";
+	Thor.rok=2011;
+	Thor.gatunek=" Film fantasy/Film akcji ";
+
+    Venom.tytul="Venom";
+	Venom.rezyser="Ruben Fleischer";
+	Venom.rok=2018;
+	Venom.gatunek="Akcja Sci-Fi";
+	 
+	IronMan.tytul="Iron Man";
+	IronMan.rezyser="Jon Favreau";
+	IronMan.rok=2008;
+	IronMan.gatunek="Film akcji/Film fantastycznonaukowy ";
+	
+	cout<<"+++++++++++++++++++++++++++++++++++++++++++"<<endl;
+	
+    cout<<"Tytul filmu to:" << Aquaman.tytul << endl;
+	cout<<"Rezyseria filmu to:" << Aquaman.rezyser << endl;
+    cout<<"Data powstania filmu to:" << Aquaman.rok << endl;
+    cout<<"Gatunek filmu to:" << Aquaman.gatunek << endl;
+    
+    cout<<"+++++++++++++++++++++++++++++++++++++++++++"<<endl;
+    
+    cout<<"Tytul filmu to:" << JakzostalmgangsteremHistoriaprawdziwa.tytul << endl;
+	cout<<"Rezyseria filmu to:" << JakzostalmgangsteremHistoriaprawdziwa.rezyser << endl;
+    cout<<"Data powstania filmu to:" << JakzostalmgangsteremHistoriaprawdziwa.rok << endl;
+    cout<<"Gatunek filmu to:" << JakzostalmgangsteremHistoriaprawdziwa.gatunek << endl;
+    
+    cout<<"+++++++++++++++++++++++++++++++++++++++++++"<<endl;
+    
+    cout<<"Tytul filmu to:" << Thor.tytul << endl;
+	cout<<"Rezyseria filmu to:" << Thor.rezyser << endl;
+    cout<<"Data powstania filmu to:" << Thor.rok << endl;
+    cout<<"Gatunek filmu to:" << Thor.gatunek << endl;
+    
+    cout<<"++++++++++++++++++++++++++++++++++++++++++"<<endl;
+    
+    cout<<"Tytul filmu to:" << Venom.tytul << endl;
+	cout<<"Rezyseria filmu to:" << Venom.rezyser << endl;
+    cout<<"Data powstania filmu to:" << Venom.rok << endl;
+    cout<<"Gatunek filmu to:" << Venom.gatunek << endl;
+    
+    cout<<"++++++++++++++++++++++++++++++++++++++++++"<<endl;
+    
+    cout<<"Tytul filmu to:" << IronMan.tytul << endl;
+	cout<<"Rezyseria filmu to:" << IronMan.rezyser << endl;
+    cout<<"Data powstania filmu to:" << IronMan.rok << endl;
+    cout<<"Gatunek filmu to:" << IronMan.gatunek << endl;
+	
+	return 0;
+	
+}
